@@ -83,7 +83,7 @@ a:hover{
 	line-height: 70px;
 	text-decoration: none;
 	color: white;
-	font-family: '微软雅黑';
+	font-family: '微软雅黑', serif;
 	font-size: 25px;
 }
 
@@ -99,13 +99,13 @@ a:hover{
 }
 
 #timeSwitcher{
-	position: block;
+	position: static;
 	display: flex;
 	align-items: center;
 	border-radius: 50px;
-	margin: 0px 20px;
+	margin: 0 20px;
 	width: 50px;
-	height: 30px;
+	height: 31px;
 	background-color: #e8e8e8;
 	border-color: #5c5c5c;
 	border-style: solid;
@@ -119,7 +119,7 @@ a:hover{
 	border-style: none;
 	background-color: #5c5c5c;
 	color: white;
-	margin-left: 1px;
+	margin: 1px;
 	overflow-x: hidden;
 	transition: margin-left 250ms;
 }
